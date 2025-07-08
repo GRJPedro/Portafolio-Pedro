@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Metadatos -->
+    <meta charset="utf-8">
+    <meta name="author" content="Pedro Gómez">
+    <meta name="description" content="Portafolio de Pedro Gómez">
+    <meta name="keywords" content="HTML, CSS, JavaScript, Bootstrap, React, Python, Java">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Titulo -->
+    <title>Pedro Gómez | Portafolio</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="imagenes/briefcase-fill.svg">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- Iconos de Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- CSS -->
+    <link href="style.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Barra de navegacion -->
+    <nav class="navbar navbar-expand-md navbar-light">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-toggler">
+          <a class="navbar-brand" href="#">
+            <img src="imagenes/briefcase-fill.svg" width="40" alt="Logo de la página web">
+          </a>
+          <ul class="navbar-nav d-flex justify-content-center align-items-center">
+            <li class="nav-item">
+              <a class="nav-link active" style="color:rgb(197, 158, 1)" aria-current="page" href="#sobre-mi">Sobre mí</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#proyectos">Productos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonios">Testimonios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Seccion Hero -->
+    <section class="hero container-fluid">
+      <div class="row">
+        <img src="imagenes/hero_titulo.png">
+      </div>
+    </section>
+
+    
+
+    <!-- Sobre mi -->
+    <section id="sobre-mi" class="sobre-mi seccion-oscura">
+      <div class="contenedor">
+        <h2 class="seccion-titulo">Conoce a Pedro Gómez</h2>
+        <p class="seccion-texto">Como profesional apasionado por la tecnología y la geografía,
+          ofrezco servicios especializados en desarrollo de sistemas y análisis geográfico. 
+          Mi objetivo es ayudarte a mejorar la eficiencia, tomar decisiones informadas y visualizar 
+          tu información de manera efectiva.
+          </p>
+      </div>
+    </section>
+
+    <!--Experiencia nueva prueba-->
+
+    <section class="experiencia">
+      <div class="container">
+        <div class="card-group">
+          <div class="card">
+            <img src="imagenes/compu4_bn.png" class="card-img-top" alt="con_experiencia">
+            <div class="card-body">
+              <h5 class="card-title">Con experiencia en:</h5>
+              <ul>
+                <li>Desarrollo de sistemas web y móviles personalizados</li>
+                <li>Análisis y visualización de datos geográficos para tomar decisiones estratégicas</li>
+                <li>Diseño e implemetación de bases de datos geoespaciales para gestionar información territorial</li>
+                <li>Desarrollo de aplicaciones de información geográfica (SIG) para analizar y visualizar datos</li>
+                <li>Análisis espacial y modelado predictivo para anticipar tendencias y patrones.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="card">
+            <img src="imagenes/compu2_bn.png" class="card-img-top" alt="se_centra">
+            <div class="card-body">
+              <h5 class="card-title">Mi enfoque se centra en: </h5>
+              <ul>
+                <li>Entender tus necesidades y objetivos para ofrecer soluciones personalizadas</li>
+                <li>Utilizar tecnologías de vanguardia para asegurar eficiencia y escalabilidad</li>
+                <li>Proporcionar análisis precisos y visualizaciones claras para informar tus decisiones</li>
+                <li>Fomentar la colaboración y comunicación efectiva para asegurar el éxito de tus proyectos</li>
+              </ul>
+            </div>
+          </div>
+          <div class="card">
+            <img src="imagenes/compu3_bn.png" class="card-img-top" alt="conmigo_para">
+            <div class="card-body">
+              <h5 class="card-title">Trabaja conmigo para: </h5>
+              <ul>
+                <li>Mejorar la eficiencia de tus procesos con sistemas personalizados</li>
+                <li>Tomar decisiones informadas con análisis geográfico preciso</li>
+                <li>Visualizar y comprender tus datos de manera efectiva</li>
+                <li>Anticipar tendencias y patrones con análisis espacial y modelado predictivo</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Proyectos -->
+    <section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
+      <h2 class="seccion-titulo texto-negro">Mis productos</h2>
+      <h3 class="seccion-descripcion">En mis principales áreas de aplicación</h3>
+      <!-- Galeria de Proyectos -->
+      <div class="container text-center proyectos-contenedor">
+        <div class="row">
+          <!-- Proyecto 1 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <h5>Desarrollo Java</h5>
+              <img src="imagenes/pro_jav.png" alt="Java">
+              <div class="overlay">
+                <div class="iconos-contenedor">
+                  <a href="https://grjpedro.github.io/PortaJava/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-box-arrow-in-down"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 2 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <h5>Desarrollo Python</h5>
+              <img src="imagenes/pro_pyt.png" alt="Python">
+              <div class="overlay">
+                <div class="iconos-contenedor">
+                  <a href="https://grjpedro.github.io/PortaPython/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-box-arrow-in-down"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 3 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <h5>Desarrollo Front-end</h5>
+              <img src="imagenes/pro_fro.png" alt="front end">
+              <div class="overlay">
+                <div class="iconos-contenedor">
+                  <a href="https://grjpedro.github.io/PortaFrontend/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-box-arrow-in-down"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 4 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <h5>Bases de Datos</h5>
+              <img src="imagenes/pro_bda.png" alt="bases de datos">
+              <div class="overlay">
+                <div class="iconos-contenedor">
+                  <a href="https://grjpedro.github.io/PortaBD/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-box-arrow-in-down"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 5 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <h5>Análisis Geográfico</h5>
+              <img src="imagenes/pro_geo.png" alt="geografia">
+              <div class="overlay">
+                <div class="iconos-contenedor">
+                  <a href="https://grjpedro.github.io/PortaGEO/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-box-arrow-in-down"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 6 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <h5>Análisis de Mercado</h5>
+              <img src="imagenes/pro_mkt.png" alt="mercadotecnia">
+              <div class="overlay">
+                <div class="iconos-contenedor">
+                  <a href="https://grjpedro.github.io/PortaMKT/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-box-arrow-in-down"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Articulos prueba-->
+    <!--<section class="articulos justify-content-start">
+      <h2 class="seccion-titulo texto-negro">Artículos</h2>
+
+      <div class="card">
+        <img src="imagenes/compu3_bn.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Artículos</h5>
+          <p class="card-text">Aqui puedes descargar articulos de mis principales áreas de aplicación </p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <a href="https://www.freecodecamp.org/espanol/news/" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              El decorador @property en Python - cómo usarlo, ventajas y sintaxis
+            </li>
+          </a>
+          <a href="https://www.freecodecamp.org/espanol/news/" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              Python tutorial ciclos while - while True ejemplos de sintaxis y ciclos infinitos
+            </li>
+          </a>
+          <a href="https://www.freecodecamp.org/espanol/news/" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              Python leer archivo JSON - cómo cargar JSON desde un archivo y procesar dumps
+            </li>
+          </a>
+          <a href="https://www.freecodecamp.org/espanol/news/" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              Python cómo escribir en un archivo - abrir, leer, escribir y otras funciones de archivos explicadas
+            </li>
+          </a>
+          <a href="https://www.freecodecamp.org/espanol/news/" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              ¿Para qué se usa Python? 10+ usos del lenguaje de programación Python
+            </li>
+          </a>
+        </ul>
+      </div>
+    </section>-->
+
+    <!-- Testimonios -->
+    <section id="testimonios" class="testimonios seccion-clara">
+      <h2 class="seccion-titulo">Testimonios</h2>
+      <h3 class="seccion-descripcion">Estos son algunos testimonios sobre mi trabajo</h3>
+      
+      <!-- Carrusel -->
+      <div id="testimonios-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/Carlos_m.jpg" alt="Foto de Carlos">
+              <p class="testimonio-texto">José Pedro Gómez Rodriguez participó como Analista Geográfico 
+                en el proyecto del Sistema Nacional de Información del Agua demostrando su amplia capacidad en el 
+                ámbito de Sistemas de Información Geográfica y Geomática así como su formación en programación Java POO,
+                Python POO, Python para SIG con extensiones ArcPy y PyQGIS. Es un profesional ampliamente comprometido,
+                 muy responsable, con una gran creatividad así como enfoque de servicio.
+              </p>
+              <div class="testimonio-info">
+                <p class="cliente">Carlos Montaño</p>
+                <p class="cargo">Lider de Proyecto en INFOTEC</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/Valentin_Gomez.png" alt="Foto de Vale">
+              <p class="testimonio-texto">Pedro es mi hermano, amigo y colega. Ha participado conmigo en diferentes proyectos de Desarrollo 
+                de Software donde demostró ser una persona entusiasta, creativa, comprometida y competente. 
+                Tiene una gran capacidad analítica que le permite identificar y resolver problemas complejos. 
+                Su aporte ha dichos proyectos es gratificante.</p>
+              <div class="testimonio-info">
+                <p class="cliente">Valentín Gómez</p>
+                <p class="cargo">Director General Bidxi Software</p>
+              </div>
+            </div>
+          </div>
+          <!--<div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/cliente3.svg" alt="Foto de Leonardo">
+              <p class="testimonio-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel iaculis urna. Fusce a ornare enim, vel interdum turpis. Sed aliquam interdum nisi a placerat.</p>
+              <div class="testimonio-info">
+                <p class="cliente">Leonardo</p>
+                <p class="cargo">Director de AprendeAProgramar</p>
+              </div>
+            </div>
+          </div>-->
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="contacto seccion-oscura">
+      <div class="container">
+        <div class="container text-center rectangulo d-flex justify-content-evenly">
+          <div class="row">
+            <div class="col-12 col-md-4 seccion-titulo">
+              ¡Hablemos!
+            </div>
+            <div class="col-12 col-md-4 descripcion">
+              Contáctame estoy aqui para ayudarte a alcanzar tus objetivos y llevar tus proyectos al siguente nivel.
+            </div>
+            <div class="col-12 col-md-4">
+              <a href="mailto:pedrogomez.geo@gmail.com">
+                <button type="button">  
+                  Contacto
+                  <i class="bi bi-envelope-check-fill"></i>
+                </button>
+              </a>
+              <a href="tel:+525527051140"></a>
+                <button type="button">  
+                  Telefono
+                  <i class="bi bi-telephone-fill"></i>
+                </button>
+              </a>
+            </div>
+              <div class="col-12 col-md-6 telmail">
+                e-mail: pedrogomez.geo@gmail.com
+               </div>
+               <div class="col-12 col-md-6 telmail">
+                 teléfono: 5527051140
+                </div>
+            </div>
+          </div>
+        
+        </div>
+      </div>
+    </section>
+    
+    <!-- Pie de pagina (footer) -->
+    <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center"> 
+      
+      <p class="footer-texto text-center">Aprendo y creo todos los días.<br>Creemos un proyecto juntos.</p>
+      <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+        <a href="https://x.com/pedrogo62967054?s=11" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-twitter-x"></i>
+        </a>
+        <a href="https://github.com/GRJPedro" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/pedro-gomez-61851566/" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-linkedin"></i>
+        </a>
+        <a href="https://www.instagram.com/pedrogomez_geo/" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-instagram"></i>
+        </a>
+        <a href="mailto:pedrogomez.geo@gmail.com" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-envelope"></i>
+        </a>
+      </div>
+      <div class="derechos-de-autor">Creado Pedro Gómez (2025) &#169;</div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  </body>
+</html>
